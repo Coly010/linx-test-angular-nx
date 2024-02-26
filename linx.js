@@ -6,7 +6,7 @@ if(process.argv.length === 2) {
 
 async function main() {
     const nxCommandToRun = process.argv.slice(2).join(" ");
-    const commandToRun = `docker run -v .:/usr/src/app -p 4200:4200 cferry101/linx ${nxCommandToRun}`;
+    const commandToRun = `docker run -v .:/usr/src/app -p 4200-4299:4200-4299 cferry101/linx ${nxCommandToRun}`;
     console.log(commandToRun)
     const promise = new Promise((res, rej) => {
         const cp = child_process.exec(commandToRun, (error, stdout, stderr) => {

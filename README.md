@@ -12,6 +12,13 @@ e.g.
 
 `node linx.js nx serve mftest`
 
+### Module Federation Usage
+
+To serve the host app and all remotes as static:
+
+`node linx.js nx serve ng-shell`
+
+
 ### Info
 
 The docker image `cferry101/linx` will install `nx@latest` on `linux`
