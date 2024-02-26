@@ -47,7 +47,7 @@
     "jest-environment-jsdom": "^29.4.1",
     "jest-preset-angular": "~14.0.2",
     "jsonc-eslint-parser": "^2.1.0",
-    "nx": "18.1.0-beta.2",
+    "nx": "^18.0.5",
     "prettier": "^2.6.2",
     "ts-jest": "^29.1.0",
     "ts-node": "10.9.1",
